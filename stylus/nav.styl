@@ -1,0 +1,121 @@
+#acerca-link
+	color white
+	font-family "RLight"
+	text-transform uppercase
+	&:before
+		content "\e61f  "
+		font-family "icomoon"
+		font-size 1rem
+#cirugias-link
+	color white
+	font-family "RLight"
+	text-transform uppercase
+	&:before
+		content "\e610  "
+		font-family "icomoon"
+		font-size 1rem
+#inicio-link
+	color white
+	font-family "RLight"
+	text-transform uppercase
+	&:before
+		content "\f015  "
+		font-family "icomoon"
+		font-size 1rem
+#pacientes-link
+	color white
+	font-family "RLight"
+	text-transform uppercase
+	&:before
+		content "\f0c0  "
+		font-family "icomoon"
+		font-size 1rem
+#profesionales-link
+	color white
+	font-family "RLight"
+	text-transform uppercase
+	&:before
+		content "\f0f0  "
+		font-family "icomoon"
+		font-size 1rem
+#nav-inner
+	background $bluegray
+	position relative
+#user-name
+	position relative
+	&:before
+		content "\e601"
+		font-family "icomoon"
+		font-size 1.3rem
+		left -1.7rem
+		position absolute
+		top -.5rem
+#user-trigger
+	background rgba(0,0,0,0.1)
+	color white
+	font-family "RLight"
+	font-size .9rem
+	padding .8rem 1.2rem .8rem 2.5rem
+	position absolute
+	right 0
+	top 0
+.nav-item
+	display inline-block
+	font-size .8rem
+	padding .7rem .8rem
+	transition .3s ease all
+	vertical-align top
+	&:hover
+		background rgba(255,255,255,0.1)
+		
+@media screen and (min-width: 735px)
+	#acerca-link
+		color white
+		font-family "RLight"
+		text-transform uppercase
+		&:before
+			content "\e61f  "
+			font-family "icomoon"
+			font-size 1rem
+		&:after
+			content "Acerca de..."
+	#cirugias-link
+		color white
+		font-family "RLight"
+		text-transform uppercase
+		&:before
+			content "\e610  "
+			font-family "icomoon"
+			font-size 1rem
+		&:after
+			content "Cirugías"
+	#inicio-link
+		color white
+		font-family "RLight"
+		text-transform uppercase
+		&:before
+			content "\f015  "
+			font-family "icomoon"
+			font-size 1rem
+		&:after
+			content "Inicio"
+	#pacientes-link
+		color white
+		font-family "RLight"
+		text-transform uppercase
+		&:before
+			content "\f0c0  "
+			font-family "icomoon"
+			font-size 1rem
+		&:after
+			content "Pacientes"
+	#profesionales-link
+		color white
+		font-family "RLight"
+		text-transform uppercase
+		&:before
+			content "\f0f0  "
+			font-family "icomoon"
+			font-size 1rem
+		&:after
+			content "Profesionales"

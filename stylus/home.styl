@@ -1,0 +1,183 @@
+#user-wrapper
+	position absolute
+	right 0
+	top 1rem
+#add-app-button
+	&:hover
+		cursor pointer
+#add-app-wrapper
+	display none
+	background #eee
+	margin-bottom 10px
+	padding 10px
+#admin-link
+	color white
+	font-family "RLight"
+	text-transform uppercase
+	&:before
+		content "\f080  "
+		font-family "icomoon"
+		font-size 1rem
+#agenda
+	padding-right 0
+	padding-top 1rem
+#agenda-table
+	border 2px solid rgba(0,0,0,0.2)
+	width 100%
+	& tr
+		background #eee
+		border 1px dashed rgba(0,0,0,0.1)
+		& td
+			height 20px
+	& tr:nth-child(2n)
+		border-bottom 1px solid rgba(0,0,0,0.1)
+#add-widget
+	background $yellow
+	margin-top 15px
+	padding 10px
+	text-align center
+	text-transform uppercase
+	&:hover
+		cursor pointer
+#appo-widget
+#calendar-widget
+	background #eee
+	margin-top 15px
+	padding 10px
+	position relative
+#appo-widget
+	& .appo-img-wrapper
+		display none
+#calwg-day-numb
+	color $red
+	font-size 2rem
+#calwg-day-name
+#calwg-day-numb
+#calwg-month-name
+.wg-title
+	font-family "RLight"
+	text-align center
+.wg-title
+	margin-bottom 5px
+#main
+	margin-bottom 1rem
+.ag-hour-indicator
+	background rgba(0,0,0,.1)
+	color rgba(0,0,0,.5)
+	font-family "RRegular"
+	font-size .9rem
+	height 100%
+	padding 4px
+	width 4%
+.cita1
+	background $imahbrand
+	border-radius 5px
+	padding 5px 0
+.add-app-buttons
+	margin 20px 0 5px 0
+	text-align right
+.appo-img
+	border-radius 50%
+	margin-top 5px
+	width 50px
+.appo-data-wrapper
+	padding-left 0
+.appo-img-wrapper
+	padding-right 0
+	text-align center
+.appo-name
+.appo-hour
+.appo-type
+	color white
+	font-family "RLight"
+	font-size .8rem
+	padding-left 10px
+.cancel-app
+	border-radius 50%
+	color rgba(255,255,255,.5)
+	display inline-block
+	border 2px solid rgba(255,255,255,.2)
+	margin 12px 2px 0 0 
+	padding 2px 10px
+	&:hover
+		background rgba(255,255,255,.2)
+		cursor pointer
+.droppable
+	height 60px !important
+	width 95%
+.launcher-icon-admin
+	display inline-block
+	margin 20px 0
+	&:before
+		content "\f080"
+		font-family "icomoon"
+		font-size 2rem
+.launcher-icon-agenda
+	display inline-block
+	margin 20px 0
+	&:before
+		content "\f073"
+		font-family "icomoon"
+		font-size 2rem
+.launcher-icon-consul
+	display inline-block
+	margin 20px 0
+	&:before
+		content "\f075"
+		font-family "icomoon"
+		font-size 2rem
+.launcher-icon-pac
+	display inline-block
+	margin 20px 0
+	&:before
+		content "\f0c0"
+		font-family "icomoon"
+		font-size 2rem
+.launcher-icon-wrapper
+	text-align center
+.launcher-item
+	background #eee
+	margin 20px 0
+	padding 10px
+	&:hover
+		cursor pointer
+.launcher-item-desc-wrapper
+	color #777
+	margin-top 20px
+.launcher-item-desc-left
+	display inline-block
+	font-family "RLight"
+.launcher-item-desc-right
+	display inline-block
+	font-family "RRegular"
+.launcher-item-subtitle
+	font-family "RLight"
+	line-height 1rem
+.launcher-item-title
+	font-family "RRegular"
+	font-size 2rem
+	line-height 2rem
+.order-wrapper
+	position relative
+	text-align right
+.order
+	border-radius 50%
+	color rgba(255,255,255,.5)
+	display inline-block
+	border 2px solid rgba(255,255,255,.2)
+	margin 12px 13px 0 0 
+	padding 2px 10px
+	&:hover
+		background rgba(255,255,255,.2)
+		cursor pointer
+@media screen and (min-width: 735px)
+	#admin-link
+		color white
+		font-family "RLight"
+		text-transform uppercase
+		&:before
+			content "\f080  "
+			font-family "icomoon"
+			font-size 1rem
+		&:after
+			content "Administración"

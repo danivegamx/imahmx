@@ -1,0 +1,112 @@
+header
+	background rgba(255,255,255,0.9)
+	padding .5rem 1rem 1rem 1rem
+	width 100%
+#call-us
+	& a
+		color $red
+		font-family "RBold"
+#call-us-hour
+	font-family "RLight"
+	font-size .7rem
+	position absolute
+	right 0
+	bottom -.9rem
+#call-us-tooltip
+	font-family "RLight"
+	font-size .7rem
+	position absolute
+	right 0
+	top -.7rem
+#contact-button
+	&:before
+		content "\f0e5"
+		font-family "icomoon"
+#events-button
+	&:before
+		content "\f073"
+		font-family "icomoon"
+#logo
+	margin 0
+	& img
+		width 100px
+#menu-wrapper
+	position absolute
+	right 0
+	top 1rem
+#patient-button
+	&:before
+		content "\f0c0"
+		font-family "icomoon"
+#who-button
+	&:before
+		content "\e61f"
+		font-family "icomoon"
+#who-menu
+	background white
+	border-radius 4px
+	box-shadow 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.24)
+	display none
+	position absolute
+	top 60px
+	& ul
+		margin 0
+		padding 0
+		& li
+			list-style none
+			padding 0
+			& a
+				display block
+				font-size .9rem
+				padding .7rem .5rem .7rem 1rem
+				&:hover
+					background rgba(0,0,0,0.05)
+	&:before
+		border-bottom 10px solid white
+		border-left 10px solid transparent
+		border-right 10px solid transparent
+		bottom 100%
+		content ""
+		left 50%
+		margin-left -10px
+		position absolute
+.header-button
+	background rgba(0,0,0,0.04)
+	border-radius 3px
+	color $blue
+	font-family "RRegular"
+	margin 0 .2rem
+	padding .5rem
+	text-transform uppercase
+.header-button-pressed
+	background $bluegray
+	color white
+@media screen and (min-width: 768px)
+	#contact-button
+		&:before
+			content "\f0e5  "
+			font-family "icomoon"
+		&:after
+			content "CONTACTO"
+			font-family "RLight"
+	#events-button
+		&:before
+			content "\f073  "
+			font-family "icomoon"
+		&:after
+			content "EVENTOS"
+			font-family "RLight"
+	#patient-button
+		&:before
+			content "\f0c0  "
+			font-family "icomoon"
+		&:after
+			content "PACIENTES"
+			font-family "RLight"
+	#who-button
+		&:before
+			content "\e61f  "
+			font-family "icomoon"
+		&:after
+			content "¿QUIENES SOMOS?"
+			font-family "RLight"
