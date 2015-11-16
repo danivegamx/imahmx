@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 	<meta name="format-detection" content="telephone=no">
-	<title>iMahpp by Clinica IMAH</title>
+	<title>Clinic Intel v1</title>
 	<link rel="stylesheet" type="text/css" href="css/normalize.css"/>
 	<link rel="stylesheet" type="text/css" href="css/foundation/css/foundation.css"/>
 	<link rel="stylesheet" type="text/css" href="css/master.css"/>
@@ -25,10 +25,6 @@
 	<nav>
 		<div id="nav-inner" class="row">
 			<a id="inicio-link" class="nav-item" href="#"></a>
-			<!--a id="pacientes-link" class="nav-item" href="#"></a>
-			<a id="cirugias-link" class="nav-item" href="#"></a>
-			<a id="profesionales-link" class="nav-item" href="#"></a>
-			<a id="fundacion-link" class="nav-item" href="#"></a-->
 			<a id="user-trigger">
 				<span id="user-name">Registro de pacientes</span>
 			</a>
@@ -40,18 +36,18 @@
 			<div class="app-field">
 				<div class="app-field-title">Nombre de usuario</div>
 				<div class="app-field-input">
-					<input id="app-field-name" type="text" placeHolder="Ej. juanperez"/>
+					<input id="login-field-username" type="text" placeHolder="Ej. juanperez"/>
 				</div>
 			</div>
 			<div class="app-field">
 				<div class="app-field-title">Contraseña</div>
 				<div class="app-field-input">
-					<input id="app-field-num" type="password" placeHolder="* * * * * * * *"/>
+					<input id="login-field-password" type="password" placeHolder="* * * * * * * *"/>
 				</div>
 			</div>
 			<div id="app-buttons">
 				<div class="forgot-section">¿Olvidó su contraseña?</div>
-				<a id="set-appointment" class="button">Iniciar Sesión</a>
+				<a id="login" class="button">Iniciar Sesión</a>
 				<div id="app-login">
 					Si tiene problemas para iniciar sesión, póngase en contácto con el administrador del sistema
 				</div>
